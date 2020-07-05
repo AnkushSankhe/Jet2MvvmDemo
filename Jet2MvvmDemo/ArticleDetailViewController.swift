@@ -61,6 +61,7 @@ class ArticleDetailViewController: UIViewController {
     
     func setUp()
     {
+        activityIndicator.startAnimating()
         fetchData(pageNumber: String(defaultPageNumber))
     }
     
